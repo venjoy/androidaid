@@ -45,7 +45,7 @@ config = {
 
 SocialAuth auth = new SocialAuth($config);
  
-SocialSite twitter = $auth.authenticate( "Twitter" );
+SocialSite twitter = auth.authenticate( "Twitter" );
 
 SocialProfile profile = twitter.getUserProfile();
 
