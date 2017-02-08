@@ -9,6 +9,9 @@ public class SocialAuth {
 
     private String mAuthJson;
 
+    public SocialAuth() {
+    }
+
     public SocialAuth(String mAuthJson) {
         this.mAuthJson = mAuthJson;
     }
