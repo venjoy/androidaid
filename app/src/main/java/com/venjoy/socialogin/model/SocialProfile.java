@@ -6,7 +6,7 @@ package com.venjoy.socialogin.model;
  * e.g UserName and userEmail from the social account user will login.
  */
 
-public class SocialProfile {
+public class SocialProfile extends Thread{
 
     private String mDisplayName ;
     private String mEmailAddress ;
